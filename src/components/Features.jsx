@@ -1,8 +1,8 @@
 function Features() {
     const features = [
       { title: "AI Blog Writer", desc: "Generate SEO-optimized blogs in seconds." },
-      { title: "Video Scripts", desc: "Craft engaging scripts with AI precision." },
-      { title: "Social Media", desc: "Create viral posts effortlessly." },
+      { title: "Social Media", desc: "Create viral social media content." },
+      { title: "Email AI Agents", desc: "Build AI agents to effectivly manage emails from customers" },
     ];
   
     return (
