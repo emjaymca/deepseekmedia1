@@ -14,7 +14,7 @@ function Contact() {
 
   const [submitted, setSubmitted] = useState(false);
 
-const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     await fetch('https://formspree.io/f/mrbpzwdn', {
       method: 'POST',
@@ -23,17 +23,22 @@ const handleSubmit = async (e) => {
     });
     setFormData({ name: '', email: '', message: '' });
     setSubmitted(true);
-  setTimeout(() => setSubmitted(false), 3000); // Hide after 3s
+    setTimeout(() => setSubmitted(false), 3000); // Hide after 3s
   };
 
   return (
     <section className="min-h-screen bg-gray-900 py-16 flex items-center justify-center">
       <div className="max-w-lg w-full mx-auto p-6 bg-gray-800 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-purple-400 text-center mb-6">Get in Touch</h2>
+        <h2 className="text-3xl font-bold text-purple-400 text-center mb-6">
+          Get in Touch
+        </h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Name */}
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-300">
+            <label
+              htmlFor="name"
+              className="block text-sm font-medium text-gray-300"
+            >
               Name
             </label>
             <input
@@ -49,7 +54,10 @@ const handleSubmit = async (e) => {
           </div>
           {/* Email */}
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-300">
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-gray-300"
+            >
               Email
             </label>
             <input
@@ -65,7 +73,10 @@ const handleSubmit = async (e) => {
           </div>
           {/* Message */}
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-300">
+            <label
+              htmlFor="message"
+              className="block text-sm font-medium text-gray-300"
+            >
               Message
             </label>
             <textarea
@@ -88,8 +99,10 @@ const handleSubmit = async (e) => {
           </button>
         </form>
         {submitted && (
-  <p className="text-green-400 text-center mt-4">Message sent successfully!</p>
-)}
+          <p className="text-green-400 text-center mt-4">
+            Message sent successfully!
+          </p>
+        )}
       </div>
     </section>
   );
