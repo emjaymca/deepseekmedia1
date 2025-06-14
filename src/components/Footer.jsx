@@ -30,7 +30,7 @@ function Footer() {
                             </a>
                         </div>
                     </div>
-                    
+
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
                         <ul className="space-y-2">
@@ -40,7 +40,7 @@ function Footer() {
                             <li><a href="#contact" className="text-gray-400 hover:text-blue-400 transition">Contact</a></li>
                         </ul>
                     </div>
-                    
+
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-4">Services</h4>
                         <ul className="space-y-2">
@@ -50,19 +50,19 @@ function Footer() {
                             <li><a href="#" className="text-gray-400 hover:text-blue-400 transition">Social Media Content</a></li>
                         </ul>
                     </div>
-                    
+
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
                         <ul className="space-y-2">
-                            <li className="text-gray-400">San Francisco, CA</li>
+                            <li className="text-gray-400">Chennai, India</li>
                             <li><a href="mailto:info@deepseekmedia.com" className="text-gray-400 hover:text-blue-400 transition">info@deepseekmedia.com</a></li>
                             <li><a href="tel:+1234567890" className="text-gray-400 hover:text-blue-400 transition">+1 (234) 567-890</a></li>
                         </ul>
                     </div>
                 </div>
-                
+
                 <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
-                    <p className="text-gray-500 text-sm">© 2024 DeepseekMedia. All rights reserved.</p>
+                    <p className="text-gray-500 text-sm">© 2025 DeepseekMedia. All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a href="#" className="text-gray-500 hover:text-blue-400 text-sm">Privacy Policy</a>
                         <a href="#" className="text-gray-500 hover:text-blue-400 text-sm">Terms of Service</a>
